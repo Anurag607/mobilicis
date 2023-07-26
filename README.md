@@ -8,6 +8,8 @@ Use `flutter clean && flutter pub get` to clean the existing build and install a
 
 Then run the application using `flutter run` .
 
+Make sure to create a .env file at the root of the project and add a FCM_SERVER_KEY variable in it with an empty string. Or comment callOnFcmApiSendPushNotifications in
+
 # Image Optimization
 
 1. I used `debugInvertOversizedImages = true;` to get all the unoptimized images.
