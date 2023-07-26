@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "662595738073",
+    "project_id": "mobilicis-6d085",
+    "storage_bucket": "mobilicis-6d085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662595738073:android:367f3e603fd2ba2ca421c8",
+        "android_client_info": {
+          "package_name": "com.example.mobilicis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662595738073-eo16rtbp8tsuo516e1pfrhb89t1v1s8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobilicis",
+            "certificate_hash": "babc074d3792e17d404aef136bb5d407e8eb7257"
+          }
+        },
+        {
+          "client_id": "662595738073-bsdnu7d67ilufe05e90ece36emc9dh8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPfGOuB1DLoajuhnF65l-vdCZxiwRDxgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662595738073-bsdnu7d67ilufe05e90ece36emc9dh8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

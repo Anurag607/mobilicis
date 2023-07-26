@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>662595738073-682uacv7l1jlmk7dg6dvc2k4nr875rl5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.662595738073-682uacv7l1jlmk7dg6dvc2k4nr875rl5</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>662595738073-eo16rtbp8tsuo516e1pfrhb89t1v1s8a.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDR6QCVeDj0oGIIZOFHE2KZyvuRrlcEu2k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>662595738073</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.mobilicis.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>mobilicis-6d085</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mobilicis-6d085.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:662595738073:ios:731b1c1373fba4bca421c8</string>
+</dict>
+</plist>
