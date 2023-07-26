@@ -4,11 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-Use `flutter clean && flutter pub get` to clean the existing build and install all the dependencies.
+Use `flutter clean && flutter pub get` for a clean install of all the dependencies.
 
 Then run the application using `flutter run` .
 
-Make sure to create a .env file at the root of the project and add a FCM_SERVER_KEY variable in it with an empty string. Or comment callOnFcmApiSendPushNotifications in
+Make sure to create a .env file at the root of the project and add a FCM_SERVER_KEY variable in it with an empty string and comment callOnFcmApiSendPushNotifications in fcm_api.dart.
 
 # Image Optimization
 
