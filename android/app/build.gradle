@@ -22,8 +22,10 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
-// Edit: Added the following lines
+
+// Edit: Added the following line
 apply plugin: "com.google.gms.google-services"
+
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
@@ -72,8 +74,9 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.android.support:multidex:1.0.3'
+    
     // Edit: Added the following lines
+    implementation 'com.android.support:multidex:1.0.3'
     implementation platform("com.google.firebase:firebase-bom:32.1.1")
     implementation "com.google.firebase:firebase-analytics"
 }

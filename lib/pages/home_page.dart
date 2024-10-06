@@ -1,3 +1,5 @@
+// ignore_for_file: unrelated_type_equality_checks, use_build_context_synchronously
+
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
