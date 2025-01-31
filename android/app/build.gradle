@@ -22,38 +22,29 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
-
-// Edit: Added the following line
-apply plugin: "com.google.gms.google-services"
-
 apply plugin: 'kotlin-android'
+apply plugin: 'com.google.gms.google-services'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     namespace "com.example.mobilicis"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 34   // Updated to latest version (make sure to update in local.properties too)
     ndkVersion flutter.ndkVersion
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled true
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
-    }
-
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
+        jvmTarget = '17'  // Updated for Java 17
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.example.mobilicis"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 34  // Match compileSdkVersion
         multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -61,8 +52,6 @@ android {
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
         }
     }
@@ -74,9 +63,12 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    
-    // Edit: Added the following lines
-    implementation 'com.android.support:multidex:1.0.3'
-    implementation platform("com.google.firebase:firebase-bom:32.1.1")
+
+    // MultiDex support
+    implementation 'androidx.multidex:multidex:2.0.1'  // Use AndroidX version
+
+    // Firebase BOM and Analytics
+    implementation platform("com.google.firebase:firebase-bom:32.1.4")
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.4"
     implementation "com.google.firebase:firebase-analytics"
 }

@@ -22,3 +22,11 @@ Make sure to create a .env file at the root of the project and add a FCM_SERVER_
 1. Created custom cache manager for storing only a certain number images for a certain period of time.
 2. Used const, static and final suitably to optimize widget loading.
 3. Disposed controller using void dispose() when no in use.
+
+# Screenshots
+
+![1738327348358](image/README/1738327348358.jpg)
+
+![1738327366902](image/README/1738327366902.jpg)
+
+![1738327373987](image/README/1738327373987.jpg)![1738327407659](image/README/1738327407659.jpg)![1738327412286](image/README/1738327412286.jpg)

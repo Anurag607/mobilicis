@@ -177,16 +177,20 @@ class ItemCard extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(width: 10),
-                          Text(
-                            "Condition: ${product["deviceCondition"]}",
-                            style: GoogleFonts.comfortaa(
-                              textStyle: TextStyle(
-                                color: HexColor("#1a1a1c").withOpacity(0.5),
-                                fontSize: 10,
-                                fontWeight: FontWeight.w900,
+                          SizedBox(
+                            width: 75,
+                            child: Text(
+                              "Condition ${product["deviceCondition"]}",
+                              textAlign: TextAlign.right,
+                              style: GoogleFonts.comfortaa(
+                                textStyle: TextStyle(
+                                  color: HexColor("#1a1a1c").withOpacity(0.5),
+                                  fontSize: 10,
+                                  fontWeight: FontWeight.w900,
+                                ),
                               ),
                             ),
-                          ),
+                          )
                         ],
                       ),
                       const SizedBox(height: 10),

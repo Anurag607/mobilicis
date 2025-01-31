@@ -46,7 +46,7 @@ class _ShopBySliderState extends State<ShopBySlider> {
                   index++)
                 Container(
                   width: 110,
-                  height: 130,
+                  height: 135,
                   padding: const EdgeInsets.symmetric(
                     vertical: 8.0,
                     horizontal: 8.0,
